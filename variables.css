@@ -1,0 +1,16 @@
+:root{
+    --hover:rgb(176, 176, 176);
+    --header-color:#525354;
+    --header-font-size:calc(1em + 1vw);
+    --text-font-size:calc(.1em + 1vw);
+    --btn-font-size:calc(.2em + 1vw);
+    --primary:rgb(83 83 245);
+    --secondary: rgb(118 118 118);
+    --danger:rgb(223 41 75);
+    --primary-hover:rgb(32 32 231);
+    --secondary-hover: rgb(68 67 67);
+    --danger-hover:rgb(187 18 50);
+    --primary-light:rgb(83 83 245 / 60%);;
+    --secondary-light: rgb(118 118 118 / 56%);;
+    --danger-light:rgb(223 41 75 / 50%);
+}

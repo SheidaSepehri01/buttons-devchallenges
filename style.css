@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    gap: 3em;
+    margin: 3em;
+
+}
+.container h3{
+    font-size: var(--header-font-size);
+    color: var(--header-color);
+    letter-spacing: 0.03em;
+}
+
+.btn-box {
+    display: flex;
+    gap: 3em;
+    font-size: var(--text-font-size);
+    align-items:end;
+}
+.btn-box button{
+    width: 6.5em;
+    height: 2.2em;
+    padding: .2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:var(--btn-font-size);
+    font-weight: 500;
+    border-radius: 0.5em;
+    color: var(--header-color);
+    border: none;
+}
+.btn-box button:hover ,.btn-box button:focus{
+    filter: brightness(0.8);
+
+}
+.btn-box .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    min-width: 17em;
+}
+.btn .hoverText{
+    color:var(--hover);
+}
+.btn .default ,.default-hover{
+    box-shadow: 1px 2px 4px #0000002b;
+    color: var(--header-color) !important;
+}
+.btn .primary ,.btn .secondary , .btn .danger{
+    background-color: var(--primary);
+    color: #fff;
+    box-shadow: 1px 2px 4px #0000002b;
+}
+.btn .secondary{
+    background-color: var(--secondary);
+}
+.btn .danger{
+    background-color: var(--danger);
+}
+
+.btn .primary-hover {
+    background-color: var(--primary-hover);
+}
+.btn .primary-hover ,.btn .secondary-hover , .btn .danger-hover{
+    color: #fff;
+    box-shadow: 1px 2px 4px #0000002b;
+}
+.btn .secondary-hover{
+    background-color: var(--secondary-hover);
+}
+.btn .danger-hover{
+    background-color: var(--danger-hover);
+}
+.btn .default-hover{
+background-color: #b1b0b0;
+}
+
+
+.btn .grocery{
+justify-content: space-evenly;
+}
+.btn .grocery span{
+    font-size: inherit;
+}
+.btn .disable-shadow{
+    box-shadow: none;
+}
+
+.btn .sm{
+    width: 4em;
+}
+.btn .md{
+    width: 5em;
+}
+.btn .lg{
+    width: 6em;
+    height: 2.3em;
+}
+footer{
+    color: var(--header-color);
+    margin: 1em;
+}
+
+footer a{
+ text-decoration: none;
+ color: var(--header-color);
+ cursor: pointer;
+}
+footer a:hover{
+    font-weight: bold;
+}

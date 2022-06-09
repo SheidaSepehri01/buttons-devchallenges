@@ -1,0 +1,55 @@
+.btn button.outline{
+    color:var(--primary);
+    border: 2px solid;
+    background: none !important;
+}
+.btn button.outline:hover , .btn button.text:hover{
+    font-weight: 600;
+}
+.btn .text{
+    background: none;
+    color: var(--primary);
+    box-shadow: none;
+}
+.btn .text-hover{
+    background-color:#b4d3ff6b ;
+    color: var(--primary);
+}
+.btn .disabled ,.btn .disabled-hover{
+    color: #9ea1a3;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+.btn .disabled-hover{
+    background: none;
+}
+.btn button.outline.default ,.btn button.text.default ,.btn button.disabled.default {
+    color: var(--header-color);
+}
+.btn button.outline.secondary ,.btn button.text.secondary , .btn button.disabled.secondary{
+    color: var(--secondary);
+}
+.btn button.outline.danger ,.btn button.text.danger,.btn button.disabled.danger {
+    color: var(--danger);
+}
+.btn button.outline-hover{
+    color:var(--primary);
+    border: 2px solid;
+    background-color:#b4d3ff6b;
+}
+.btn button.disabled.default {
+    color: var(--header-color);
+    
+}
+.btn button.disabled.secondary{
+    color:#fff;
+    background-color: var(--secondary-light)
+}
+.btn button.disabled.danger {
+    color:#fff;
+    background-color: var(--danger-light)
+}
+.btn button.disabled.primary {
+    color:#fff;
+    background-color: var(--primary-light)
+}
