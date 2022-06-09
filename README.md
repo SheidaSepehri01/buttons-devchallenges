@@ -37,7 +37,7 @@
 
 ## Overview
 
-[https://github.com/SheidaSepehri01/buttons-devchallenges/blob/main/images/Buttons-devchallenges.png](https://github.com/SheidaSepehri01/buttons-devchallenges/blob/main/images/Buttons-devchallenges.png)
+![screenshot](https://github.com/SheidaSepehri01/buttons-devchallenges/blob/main/images/Buttons-devchallenges.png)
 
 
 
